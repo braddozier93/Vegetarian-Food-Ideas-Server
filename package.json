@@ -5,10 +5,14 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./node_modules/http-server/bin/http-server"
+    "start": "node app.js",
+    "dev": "nodemon"
   },
   "author": "Brad Dozier",
-  "license": "MIT",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "dotenv": "^5.0.1",
